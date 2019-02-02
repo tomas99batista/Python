@@ -33,7 +33,7 @@ def menor(listaMensal): #Vai receber uma LISTA de mensalidades
 		if m < minimo:
 			minimo=m
 	return minimo
-
+	
 def descontos(nome): #Falta um argumento
 	meses=input("Meses oferecidos: ")
 	descontoTele=input("Desconto por telemóvel: ")
@@ -74,7 +74,7 @@ def main():
 	lista[1].append(extra2)
 	extra3=extras("VODAFONE")
 	lista[2].append(extra3)
-	print(lista)
+	#print(lista)
 	listaPreco=[]
 	listaNome=[]
 	print("-------------------------------------")
@@ -97,8 +97,11 @@ def main():
 		if mini== listaPreco[index]:
 			melhor=listaNome[index]
 	print("Melhor operador: {}".format(melhor))
-	return melhor
-
-
-
+	return melhor	
+	
+	
+	
 main()
+
+		
+	
