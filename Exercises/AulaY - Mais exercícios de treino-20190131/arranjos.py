@@ -1,6 +1,0 @@
-# NMEC: 
-# NOME: 
-
-# Complete...
-
-
